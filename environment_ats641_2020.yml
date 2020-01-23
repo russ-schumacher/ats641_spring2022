@@ -1,0 +1,21 @@
+ name: ats641
+ channels:
+   - conda-forge
+ dependencies:
+   - python>=3.6,<3.8
+   - numpy
+   - matplotlib
+   - cartopy
+   - jupyter
+   - metpy
+   - siphon
+   - pandas
+   - pip
+   - xarray
+   - ipywidgets
+   - ffmpeg
+   - boto3
+   - botocore
+   - jupyterlab
+   - pip:
+      - python-awips
