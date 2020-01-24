@@ -66,6 +66,8 @@ There are different ways you can run and interact with python, but a great way t
 
 - Walk through the steps in this notebook (Hint: you can run the code in cells using `shift-R`, or using the "play button" at the top) and hopefully you will reproduce the same 500-hPa map that is shown on the webpage linked above!  If so, congratulations, you're well on your way!
 
+- As you go, you might want to save your notebook by clicking the 'save' button in the upper left.
+
 
 - Now we're going to move on to what we actually want to do in the lab, etc...
 
