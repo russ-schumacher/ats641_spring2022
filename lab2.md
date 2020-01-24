@@ -64,16 +64,21 @@ There are different ways you can run and interact with python, but a great way t
 
 - Open up the `500hPa_HGHT_Winds.ipynb` notebook (double-click it from the menu on the left) -- this will give you a feel for what a notebook looks like and how it works.
 
-- Walk through the steps in this notebook (Hint: you can run the code in cells using `shift-R`, or using the "play button" at the top) and hopefully you will reproduce the same 500-hPa map that is shown on the webpage linked above!  If so, congratulations, you're well on your way!
+- Walk through the steps in this notebook (Hint: you can run the code in cells using `shift-R`, or using the "play button" at the top) and hopefully you will reproduce the same 500-hPa map that is shown on the webpage linked above!  If so, congratulations, you're well on your way!  
 
 - As you go, you might want to save your notebook by clicking the 'save' button in the upper left.
 
-
-- Now we're going to move on to what we actually want to do in the lab, etc...
+- The first time you run things, there may be some map files that need to be downloaded, which takes a little longer and gives  a warning. This is normal and won't happen after those files have been downloaded.
 
 - You may want to learn more about notebooks and how they work: a good resource is the Unidata training at [https://unidata.github.io/python-training/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/](https://unidata.github.io/python-training/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/)
 
 - When you're done with JupyterLab, simply go under the File menu and select "Shut down".  Once this happens, you can close that browser window.
+
+## Lab 2 assignment
+
+- Now we're going to move on to what we actually want to do in the lab, etc...
+
+
 
 
 
