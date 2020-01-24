@@ -44,6 +44,6 @@ To set up this environment, follow these steps:
 
 - In the terminal, navigate to wherever this file saved, probably cd ~/Downloads will get you there.
 
-- Run the command `conda env create -f environment_ats641_2020.yml` and wait for the installation to finish.
+- Run the command `conda env create -f environment_ats641_2020.yml` and wait for the installation to finish (it may take a while, especially if you're on a slow internet connection).
 
 - Run the command `conda activate ats641` to activate the unidata environment and verify that everything is ready.
