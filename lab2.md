@@ -47,3 +47,35 @@ To set up this environment, follow these steps:
 - Run the command `conda env create -f environment_ats641_2020.yml` and wait for the installation to finish (it may take a while, especially if you're on a slow internet connection).
 
 - Run the command `conda activate ats641` to activate the unidata environment and verify that everything is ready.
+
+## Opening and running a jupyter notebook
+
+There are different ways you can run and interact with python, but a great way to get started is with Jupyter notebooks.  They allow for you to write and test your code in a really user-friendly way. (People tried to sell them on me and I resisted for a long time, but once I started using them, now it's my favorite way to test out new code.)
+
+- At the terminal, `cd` into whatever directory you want to work out of (this might be a directory you've set up just for the class, or you can make a new one, etc.)
+
+- if you haven't, run `conda activate ats641` to activate the environment.
+
+- We're going to start with an example notebook, obtained from the Unidata website.  Right-click and download [this file](https://unidata.github.io/python-gallery/_downloads/45a886d6aaa2fa40c8e7d9239a6af334/500hPa_HGHT_Winds.ipynb).   (This notebook originates from [this page](https://unidata.github.io/python-gallery/examples/500hPa_HGHT_Winds.html).
+
+- Now, open Jupyter Lab, by simply running `jupyter lab`. This will open a new browser tab with Jupyter Lab in it.
+
+- Click on 'Python3' to launch the python kernel.
+
+- Open up the `500hPa_HGHT_Winds.ipynb` notebook (double-click it from the menu on the left) -- this will give you a feel for what a notebook looks like and how it works.
+
+- Walk through the steps in this notebook (Hint: you can run the code in cells using `shift-R`, or using the "play button" at the top) and hopefully you will reproduce the same 500-hPa map that is shown on the webpage linked above!  If so, congratulations, you're well on your way!
+
+
+- Now we're going to move on to what we actually want to do in the lab, etc...
+
+- You may want to learn more about notebooks and how they work: a good resource is the Unidata training at [https://unidata.github.io/python-training/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/](https://unidata.github.io/python-training/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/)
+
+- When you're done with JupyterLab, simply go under the File menu and select "Shut down".  Once this happens, you can close that browser window.
+
+
+
+
+
+
+
