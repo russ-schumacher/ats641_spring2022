@@ -46,7 +46,7 @@ To set up this environment, follow these steps:
 
 - Run the command `conda env create -f environment_ats641_2020.yml` and wait for the installation to finish (it may take a while, especially if you're on a slow internet connection).
 
-- Run the command `conda activate ats641` to activate the unidata environment and verify that everything is ready.
+- Run the command `conda activate ats641` to activate the unidata environment and verify that everything is ready.  (It may ask you to do something like `conda init bash`, if so then do that first.)
 
 ## Opening and running a jupyter notebook
 
@@ -56,7 +56,7 @@ There are different ways you can run and interact with python, but a great way t
 
 - if you haven't, run `conda activate ats641` to activate the environment.
 
-- We're going to start with an example notebook, obtained from the Unidata website.  Right-click and download [this file](https://unidata.github.io/python-gallery/_downloads/45a886d6aaa2fa40c8e7d9239a6af334/500hPa_HGHT_Winds.ipynb).   (This notebook originates from [this page](https://unidata.github.io/python-gallery/examples/500hPa_HGHT_Winds.html).
+- We're going to start with an example notebook, obtained from the Unidata website.  Right-click and download [this file](https://unidata.github.io/python-gallery/_downloads/45a886d6aaa2fa40c8e7d9239a6af334/500hPa_HGHT_Winds.ipynb).   (This notebook originates from [this page](https://unidata.github.io/python-gallery/examples/500hPa_HGHT_Winds.html).)
 
 - Now, open Jupyter Lab, by simply running `jupyter lab`. This will open a new browser tab with Jupyter Lab in it.
 
