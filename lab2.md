@@ -34,7 +34,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 ### Setting up your environment
 
-Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (again, borrowed from Unidata's workshop materials): 
+Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (again, borrowed from Unidata's workshop materials): [environment.yml file](environment_ats641_2020.yml)
 
 To set up this environment, follow these steps:
 
