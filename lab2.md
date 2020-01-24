@@ -1,8 +1,8 @@
-## Lab assignment 2
+# Lab assignment 2
 
 For lab assignment 2, we'll be using [MetPy](https://unidata.github.io/MetPy/latest/index.html), developed by Unidata, to produce maps and other graphics. The first step, if you haven't done this before, will be to install python, and then ultimately install MetPy.
 
-### Installing python via miniconda
+## Installing python via miniconda
 First, let's install the miniconda version of python.  (If you already have miniconda or anaconda installed on the computer you want to use, you can skip this step.)  Following the instructions used in the [Unidata python workshop](https://unidata.github.io/python-training/):
 
 
@@ -32,7 +32,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 - Verify that your install is working by running `conda --version`. You should see a response like `conda 4.8.0` or similar (though yours may be a slightly different version number).
 
-### Setting up your environment
+## Setting up your environment
 
 Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (again, borrowed from Unidata's workshop materials): [environment.yml file](environment_ats641_2020.yml)
 
