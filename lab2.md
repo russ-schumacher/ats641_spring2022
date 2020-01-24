@@ -70,6 +70,8 @@ There are different ways you can run and interact with python, but a great way t
 
 - The first time you run things, there may be some map files that need to be downloaded, which takes a little longer and gives  a warning. This is normal and won't happen after those files have been downloaded.
 
+- Now spend a little time experimenting with the code in this notebook, to get a sense for some of the options (for example, try changing the contour intervals, or the map boundaries, or the vertical level shown, etc.)
+
 - You may want to learn more about notebooks and how they work: a good resource is the Unidata training at [https://unidata.github.io/python-training/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/](https://unidata.github.io/python-training/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/)
 
 - When you're done with JupyterLab, simply go under the File menu and select "Shut down".  Once this happens, you can close that browser window.
