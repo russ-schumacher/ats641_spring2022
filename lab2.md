@@ -68,7 +68,7 @@ There are different ways you can run and interact with python, but a great way t
 
 - As you go, you might want to save your notebook by clicking the 'save' button in the upper left.
 
-- The first time you run things, there may be some map files that need to be downloaded, which takes a little longer and gives  a warning. This is normal and won't happen after those files have been downloaded.
+- The first time you run things, there may be some map files that need to be downloaded, which takes a little longer and gives a warning. This is normal and won't happen again after those files have been downloaded.
 
 - Now spend a little time experimenting with the code in this notebook, to get a sense for some of the options (for example, try changing the contour intervals, or the map boundaries, or the vertical level shown, etc.)
 
@@ -78,9 +78,35 @@ There are different ways you can run and interact with python, but a great way t
 
 ## Lab 2 assignment
 
-- Now we're going to move on to what we actually want to do in the lab, etc...
+Now, we're going to apply some of these techniques to make some maps from a recent event, and to diagnose some fields traditionally associated with QG forcing for ascent.  Namely, we'll plot the 500-hPa absolute vorticity advection, and the 850-hPa temperature advection.  For this exercise, we'll use the gridded NAM analysis from 0000 UTC 7 February 2020 (last Friday).
+
+- To start, we can use this template from Unidata [https://unidata.github.io/python-training/gallery/500hpa_vorticity_advection/](https://unidata.github.io/python-training/gallery/500hpa_vorticity_advection/).  Start a new notebook, and you can copy the code from this page in to cells as you go.  (One hint regarding notebooks is that if you run into trouble, you can break up the code into even more cells to isolate the problem. But - remember that if you define a variable in one cell and change it farther down, if you need to set it back to the original value you'll need to go back up and re-run the earlier cell(s).)
+
+- In this example, they get the archived data from NCEI, but their server doesn't have near-real-time data.  So we'll use the Unidata THREDDS server instead. So you can use a line of code like this: 
+`ncss = NCSS('https://thredds.ucar.edu/thredds/ncss/grib/NCEP/NAM/CONUS_12km/NAM_CONUS_12km_20200207_0000.grib2')`.  Also change the dates and times accordingly in the code.
+
+- Because we will use the temperature field later, add `Temperature_isobaric` to the list of variables that are pulled in with `hgt.variables`
+
+- You'll also likely run into an issue when getting the data on the 500-hPa isobaric level, because the data file actually has the pressure in Pa rather than hPa, whereas the code example uses hPa.  Make this adjustment in your code.
+
+- The rest of this code should then produce a map of 500-hPa vorticity advection. One thing you may want to experiment with is the level of smoothing, to optimize the "look" of your map.
+
+- While you're going, one good thing to check to make sure all is well is to check the units of a variable or two.  This can be done just by calling something like `hght_500.units`  (In a notebook, if you make a new cell with this call it'll just print that value to the screen.)
+
+- Now we'll move on to calculating and plotting the 850-hPa temperature advection. You won't need to re-run a lot of the earlier code, because you've already read in much of what you need. Instead, you'll just need to repeat where you get the height and winds at 500-hPa but this time for 850 hPa, and make sure to also read the temperature at 850 hPa in Kelvin.
+
+- You can use your earlier code as a template for calculating the 850-hPa temperature advection.
+
+- And now, plot the 850-hPa heights, winds, temperature, and temperature advection.  For plotting details, you might find this example helpful: [https://unidata.github.io/python-training/gallery/850hpa_temperature_advection/](https://unidata.github.io/python-training/gallery/850hpa_temperature_advection/).  (Note that not all details of that example will work because it uses a different dataset.)
+
+- OK, you should now have maps of 500-hPa vorticity advection and 850-hPa temperature advection. Include these maps with your assignment when you turn it in. Discuss what the maps show in terms of where QG forcing for ascent and descent exist at this time.  Are there areas where the two maps give conflicting information in relation to QG forcing?
 
 
+- now do q-vectors
+
+ - get radar image
+ 
+ - what's the key issue with using 500-hPa vort adv wrt the actual equation?
 
 
 
