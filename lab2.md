@@ -101,6 +101,7 @@ Now, we're going to apply some of these techniques to make some maps from a rece
 
 - OK, you should now have maps of 500-hPa vorticity advection and 850-hPa temperature advection. Include these maps with your assignment when you turn it in. Discuss what the maps show in terms of where QG forcing for ascent and descent exist at this time.  Are there areas where the two maps give conflicting information in relation to QG forcing?
 
+- Now we'll also use this same gridded analysis to calculate Q-vectors (and their divergence).  
 
 - now do q-vectors
 
