@@ -58,7 +58,7 @@ There are different ways you can run and interact with python, but a great way t
 
 - We're going to start with an example notebook, obtained from the Unidata website.  Right-click and download [this file](https://unidata.github.io/python-gallery/_downloads/45a886d6aaa2fa40c8e7d9239a6af334/500hPa_HGHT_Winds.ipynb).   (This notebook originates from [this page](https://unidata.github.io/python-gallery/examples/500hPa_HGHT_Winds.html).)
 
-- Now, open Jupyter Lab, by simply running `jupyter lab`. This will open a new browser tab with Jupyter Lab in it.
+- Now, open Jupyter Lab, by simply running `jupyter lab`. This will open a new browser tab with Jupyter Lab in it. Or you can also simply use `jupyter notebook` if you prefer.
 
 - Click on 'Python3' to launch the python kernel.
 
