@@ -101,15 +101,13 @@ Now, we're going to apply some of these techniques to make some maps from a rece
 
 - OK, you should now have maps of 500-hPa vorticity advection and 850-hPa temperature advection. Include these maps with your assignment when you turn it in. Discuss what the maps show in terms of where QG forcing for ascent and descent exist at this time.  Are there areas where the two maps give conflicting information in relation to QG forcing?
 
-- Now we'll also use this same gridded analysis to calculate Q-vectors (and their divergence).  
+- Now we'll also use this same gridded analysis to calculate 850-hPa Q-vectors (and their divergence).  There are a couple tricky aspects to plotting Q-vectors with MetPy, so I've provided a sample notebook here, which should work once you've done all the steps up to this point: [https://github.com/russ-schumacher/ats641_spring2020/blob/master/lab2_qvectors_only.ipynb](https://github.com/russ-schumacher/ats641_spring2020/blob/master/lab2_qvectors_only.ipynb).  You'll probably just want to copy these cells into your own notebook that you've been using.  Plot the 850-hPa heights, Q-vectors, and Q-vector divergence.  Where does this diagnostic indicate QG forcing for ascent?  How does it compare with what you found earlier for the "traditional" QG omega equation?
 
-- now do q-vectors
+- Are there any locations where you see a direct connection between the Q-vectors you calculated in question 1 of the lab?  If so, discuss.
 
- - get radar image
- 
- - what's the key issue with using 500-hPa vort adv wrt the actual equation?
+- Locate a radar image at the approximate time that we've been analyzing. If you want to make your own, the Iowa State RadMap API ([https://mesonet.agron.iastate.edu/GIS/radmap_api.phtml])(https://mesonet.agron.iastate.edu/GIS/radmap_api.phtml) is a great resource, or else feel free to find one that already exists, like in the NCAR MMM image archive [https://www2.mmm.ucar.edu/imagearchive/](https://www2.mmm.ucar.edu/imagearchive/).  Do the regions of precipitation shown on the radar image generally correspond to the regions of forcing for ascent that you've identified?  Briefly discuss any notable consistencies or inconsistencies.
 
-
+- Finally, think back to the diagnostics we used to represent the "traditional" QG omega equation, and in particular the 500-hPa vorticity advection.  In using this diagnostic, there's one potentially important simplification that has been made with respect to the equation. State what this simplification is and whether you think it's reasonable in this case.
 
 
 
