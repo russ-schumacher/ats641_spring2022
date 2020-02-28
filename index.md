@@ -4,6 +4,7 @@ For some of the assignments and projects in ATS641 this semester, we'll be writi
 
 [Lab assignment 2, including python and metpy setup](lab2.md)
 
+
 [Fort Collins 12" snowstorm maps](https://github.com/russ-schumacher/fortcollins_snowstorms)
 
 
