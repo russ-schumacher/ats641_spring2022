@@ -7,7 +7,7 @@ Due April 13, 2020
 
 ## Numerical simulation of convective storms
 
-In this lab, we will use the Weather Research and Forecasting (WRF) model to simulate and analyze convection in a few different situations. We will do this in the AWS cloud using the instructions and tools that were provided by the WRF team in their tutorial when they visited class.  (However, if you are already experienced with WRF and have a computer of your own or in your group where you can easily set up and run it without needing assistance, you're certainly free to use that. 
+In this lab, we will use the Weather Research and Forecasting (WRF) model to simulate and analyze convection in a few different situations. We will do this in the AWS cloud using the instructions and tools that were provided by the WRF team in their tutorial when they visited class.  (However, if you are already experienced with WRF and have a computer of your own or in your group where you can easily set up and run it without needing assistance, you're certainly free to use that.) 
 Instructions for accessing what you need on the AWS cloud are found in the document distributed separately.  Although this removes a lot of the barriers to setting up and running WRF, there will still be some hurdles to cross (plus the fact that we can't help each other in person) so I you will want to get started on it sooner rather than later.
 
 ### Background information
