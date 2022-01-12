@@ -30,7 +30,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 - If bash isn't your default shell, switch to it by running the command bash.
 
-- Verify that your install is working by running `conda --version`. You should see a response like `conda 4.8.0` or similar (though yours may be a slightly different version number).
+- Verify that your install is working by running `conda --version`. You should see a response like `conda 4.11.0` or similar (though yours may be a slightly different version number).
 
 ## Setting up your environment
 
