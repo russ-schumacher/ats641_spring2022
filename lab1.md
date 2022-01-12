@@ -34,7 +34,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 ## Setting up your environment
 
-Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (again, borrowed from Unidata's workshop materials): [environment.yml file](environment_ats641_2020.yml)
+Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (again, borrowed from Unidata's workshop materials): [environment.yml file](environment_ats641_2022.yml)
 
 To set up this environment, follow these steps:
 
@@ -44,7 +44,7 @@ To set up this environment, follow these steps:
 
 - In the terminal, navigate to wherever this file saved, probably cd ~/Downloads will get you there.
 
-- Run the command `conda env create -f environment_ats641_2020.yml` and wait for the installation to finish (it may take a while, especially if you're on a slow internet connection).
+- Run the command `conda env create -f environment_ats641_2022.yml` and wait for the installation to finish (it may take a while, especially if you're on a slow internet connection).
 
 - Run the command `conda activate ats641` to activate the unidata environment and verify that everything is ready.  (It may ask you to do something like `conda init bash`, if so then do that first.)
 
