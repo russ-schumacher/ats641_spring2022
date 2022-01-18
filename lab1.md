@@ -8,7 +8,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 ### Windows
 
-- Download the [Miniconda installer](http://conda.pydata.org/miniconda.html) for Python 3.X. Windows 32-bit machines are NOT supported by most packages and cannot be used.
+- Download the [Miniconda installer](http://conda.pydata.org/miniconda.html) for Python 3.X. (I suggest getting 3.8, though others should work fine too.) 
 
 - After downloading the installer, open it and click through the graphical install utility. Accept all of the default installation settings.
 
@@ -18,7 +18,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 - Download the [Miniconda bash installer](http://conda.pydata.org/miniconda.html).
 
-- After downloading the bash installer, open a command prompt (terminal program on the Mac).
+- After downloading the bash installer, open a command prompt (terminal app on the Mac).
 
 - Change the directory at the terminal to wherever the installer was downloaded. On most systems, this will default to the downloads directory in your user account. If that’s the case, `cd ~/Downloads` will get you there, or replace the path with wherever you saved the file.
 
@@ -34,7 +34,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 ## Setting up your environment
 
-Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (again, borrowed from Unidata's workshop materials): [environment.yml file](environment_ats641_2022.yml)
+Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (adapted from Unidata's workshop materials): [environment.yml file](environment_ats641_2022.yml)
 
 To set up this environment, follow these steps:
 
@@ -46,7 +46,7 @@ To set up this environment, follow these steps:
 
 - Run the command `conda env create -f environment_ats641_2022.yml` and wait for the installation to finish (it may take a while, especially if you're on a slow internet connection).
 
-- Run the command `conda activate ats641` to activate the unidata environment and verify that everything is ready.  (It may ask you to do something like `conda init bash`, if so then do that first.)
+- Run the command `conda activate ats641_2022` to activate the unidata environment and verify that everything is ready.  (It may ask you to do something like `conda init bash`, if so then do that first.)
 
 ## Opening and running a jupyter notebook
 
@@ -54,21 +54,21 @@ There are different ways you can run and interact with python, but a great way t
 
 - At the terminal, `cd` into whatever directory you want to work out of (this might be a directory you've set up just for the class, or you can make a new one, etc.)
 
-- if you haven't, run `conda activate ats641` to activate the environment.
+- if you haven't, run `conda activate ats641_2022` to activate the environment.
 
-- We're going to start with an example notebook, obtained from the Unidata website.  Right-click and download [this file](https://unidata.github.io/python-gallery/_downloads/45a886d6aaa2fa40c8e7d9239a6af334/500hPa_HGHT_Winds.ipynb).   (This notebook originates from [this page](https://unidata.github.io/python-gallery/examples/500hPa_HGHT_Winds.html).)
+- We're going to start with an example notebook, obtained from the Unidata website.  Right-click and download [this file](https://unidata.github.io/python-training/gallery/500hpa_hght_winds/index.ipynb).   (This notebook originates from [this page](https://unidata.github.io/python-training/gallery/500hpa_hght_winds/).)
 
 - Now, open Jupyter Lab, by simply running `jupyter lab`. This will open a new browser tab with Jupyter Lab in it. Or you can also simply use `jupyter notebook` if you prefer.
 
 - Click on 'Python3' to launch the python kernel.
 
-- Open up the `500hPa_HGHT_Winds.ipynb` notebook (double-click it from the menu on the left) -- this will give you a feel for what a notebook looks like and how it works.
+- Open up the `index.ipynb` notebook (double-click it from the menu on the left) -- this will give you a feel for what a notebook looks like and how it works.
 
-- Walk through the steps in this notebook (Hint: you can run the code in cells using `shift-R`, or using the "play button" at the top) and hopefully you will reproduce the same 500-hPa map that is shown on the webpage linked above!  If so, congratulations, you're well on your way!  
+- Walk through the steps in this notebook (Hint: you can run the code in cells using `shift-R`, or using the "play button" at the top) and hopefully you will reproduce the same 500-hPa map that is shown on the webpage linked above.  If so, congratulations, you're well on your way!  
 
 - As you go, you might want to save your notebook by clicking the 'save' button in the upper left.
 
-- The first time you run things, there may be some map files that need to be downloaded, which takes a little longer and gives a warning. This is normal and won't happen again after those files have been downloaded.
+- The first time you run things, there may be some map files that need to be downloaded, which takes a little longer and gives a warning. This is normal and won't happen again after those files have been downloaded. You might also get some warning messages, but as long as the map plots and looks right, you can ignore them.
 
 - Now spend a little time experimenting with the code in this notebook, to get a sense for some of the options (for example, try changing the contour intervals, or the map boundaries, or the vertical level shown, etc.)
 
