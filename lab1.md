@@ -76,9 +76,16 @@ There are different ways you can run and interact with python, but a great way t
 
 - When you're done with JupyterLab, simply go under the File menu and select "Shut down".  Once this happens, you can close that browser window.
 
-## Lab 2 assignment
+## Lab 1 assignment
 
-Now, we're going to apply some of these techniques to make some maps from a recent event, and to diagnose some fields traditionally associated with QG forcing for ascent.  Namely, we'll plot the 500-hPa absolute vorticity advection, and the 850-hPa temperature advection.  For this exercise, we'll use the gridded NAM analysis from 0000 UTC 7 February 2020 (last Friday).
+Now, we're going to use some of these approaches to plot a surface weather map to analyze in multiple ways. For those of you with a lot of meteorological background, some of this may seem simple, but we want to make sure everyone’s on the same page before moving on to more complicated analyses.
+
+### Surface map
+
+
+
+
+apply some of these techniques to make some maps from a recent event, and to diagnose some fields traditionally associated with QG forcing for ascent.  Namely, we'll plot the 500-hPa absolute vorticity advection, and the 850-hPa temperature advection.  For this exercise, we'll use the gridded NAM analysis from 0000 UTC 7 February 2020 (last Friday).
 
 - To start, we can use this template from Unidata [https://unidata.github.io/python-training/gallery/500hpa_vorticity_advection/](https://unidata.github.io/python-training/gallery/500hpa_vorticity_advection/).  Start a new notebook, and you can copy the code from this page in to cells as you go.  (One hint regarding notebooks is that if you run into trouble, you can break up the code into even more cells to isolate the problem. But - remember that if you define a variable in one cell and change it farther down, if you need to set it back to the original value you'll need to go back up and re-run the earlier cell(s).)
 
