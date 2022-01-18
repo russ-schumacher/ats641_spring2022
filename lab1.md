@@ -106,14 +106,11 @@ Are there any noticeable/relevant/interesting differences between your hand anal
 
 You might not like how this map looks, so spend some time making a nicer-looking version of this analysis. The MetPy notebook that my example was based on (linked near the top) provides some ideas, but feel free to experiment with your own style.
 
+When you turn in your write-up, include your hand-analyzed map, the initial map with the automated analysis, and your "final product" map (hard copy and/or electronic versions are fine). 
+
 ### Extra credit
 
 There is one clearly erroneous observation in the dataset, though it falls outside of the eastern US domain we've been plotting. Identify this observation (station, location, and why the observation is in error.)
-
-
-
-
-
 
 
 
