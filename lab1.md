@@ -84,7 +84,7 @@ Now, we're going to use some of these approaches to plot a surface weather map t
 
 ### Surface map
 
-We'll start by plotting a surface map from 0300 UTC 11 December 2021 over the eastern part of the US. I've provided an example notebook that you can use for this (adapted from a MetPy example): [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/Station_Plot.ipynb](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/Station_Plot.ipynb). You'll also need the file with all of the surface observations (in METAR format, which MetPy nicely decodes), here: [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/metar_20211211_0300.txt](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/metar_20211211_0300.txt). 
+We'll start by plotting a surface map from 0300 UTC 11 December 2021 over the eastern part of the US. I've provided an example notebook that you can use for this (adapted from a MetPy example; you can right-click and save from this link): [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/Station_Plot.ipynb](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/Station_Plot.ipynb). You'll also need the file with all of the surface observations (in METAR format, which MetPy nicely decodes), here: [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/metar_20211211_0300.txt](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/metar_20211211_0300.txt). 
 
 Go through the steps in the notebook to get your surface map. Print it out, or if you have a tablet with a pencil you could do the analysis that way too. (If you don't have easy access to a color printer, let Russ or Allie know.)
 
