@@ -8,7 +8,7 @@ For lab assignment 1, we'll be using [MetPy](https://unidata.github.io/MetPy/lat
 First, let's install the miniconda version of python.  (If you already have miniconda or anaconda installed on the computer you want to use, you can skip this step and go to the assignment.)  Following the instructions used in the [Unidata python workshop](https://unidata.github.io/python-training/):
 
 
-### Windows
+#### Windows
 
 - Download the [Miniconda installer](http://conda.pydata.org/miniconda.html) for Python 3.X. (I suggest getting 3.8, though others should work fine too.) 
 
@@ -16,7 +16,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 - You should now have a program called “Anaconda Prompt” installed. Open it (this will be your Python command prompt).
 
-### Mac/Linux
+#### Mac/Linux
 
 - Download the [Miniconda bash installer](http://conda.pydata.org/miniconda.html).
 
@@ -34,7 +34,7 @@ First, let's install the miniconda version of python.  (If you already have mini
 
 - Verify that your install is working by running `conda --version`. You should see a response like `conda 4.11.0` or similar (though yours may be a slightly different version number).
 
-## Setting up your environment
+### Setting up your environment
 
 Now we will set up an environment with the packages we need to have installed. Here is a link to an environment file that we'll use for the class (adapted from Unidata's workshop materials): [environment.yml file](environment_ats641_2022.yml)
 
@@ -50,7 +50,7 @@ To set up this environment, follow these steps:
 
 - Run the command `conda activate ats641_2022` to activate the unidata environment and verify that everything is ready.  (It may ask you to do something like `conda init bash`, if so then do that first.)
 
-## Opening and running a jupyter notebook
+### Opening and running a jupyter notebook
 
 There are different ways you can run and interact with python, but a great way to get started is with Jupyter notebooks.  They allow for you to write and test your code in a really user-friendly way. (People tried to sell them on me and I resisted for a long time, but once I started using them, now it's my favorite way to test out new code.)
 
