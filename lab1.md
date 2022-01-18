@@ -1,5 +1,7 @@
 # Lab assignment 1
 
+### Due Friday, February 4
+
 For lab assignment 1, we'll be using [MetPy](https://unidata.github.io/MetPy/latest/index.html), developed by Unidata, to produce maps and other graphics. The first step, if you haven't done this before, will be to install python, and then ultimately install MetPy.
 
 ## Installing python via miniconda
@@ -88,9 +90,17 @@ Go through the steps in the notebook to get your surface map. Print it out, or i
 
 Analyze the map given the guidelines below. For this analysis, focus on the synoptic-scale features by keeping your contours fairly smooth.
 - Draw isobars in solid black lines at 4 hPa intervals.
-- Draw isotherms in red (or another color) lines at 5 �C intervals.
+- Draw isotherms in red (or another color) lines at 5°C intervals.
 - Indicate the locations of any high and low pressure centers with an H or L, respectively.
 - Analyze any fronts that are present.
+
+In a couple sentences, describe the key features of the weather pattern that were revealed from your surface analysis.
+
+### MetPy automated analysis
+
+Manual analysis is a valuable way to get a real "feel" for the data in a given weather situation, but it also can be time consuming. A wide variety of methods for automating the analysis of weather data have been developed over the years, with varying complexity. MetPy has some of these methods built in. We'll use one of those methods here to analyze the same data that you analyzed by hand above.
+
+
 
 
 
