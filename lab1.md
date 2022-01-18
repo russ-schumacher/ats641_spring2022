@@ -86,7 +86,7 @@ Now, we're going to use some of these approaches to plot a surface weather map t
 
 We'll start by plotting a surface map from 0300 UTC 11 December 2021 over the eastern part of the US. I've provided an example notebook that you can use for this (adapted from a MetPy example): [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/Station_Plot.ipynb](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/Station_Plot.ipynb). You'll also need the file with all of the surface observations (in METAR format, which MetPy nicely decodes), here: [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/metar_20211211_0300.txt](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/metar_20211211_0300.txt). 
 
-Go through the steps in the notebook to get your surface map. Print it out, or if you have a tablet with a pencil you could do the analysis that way too. 
+Go through the steps in the notebook to get your surface map. Print it out, or if you have a tablet with a pencil you could do the analysis that way too. (If you don't have easy access to a color printer, let Russ or Allie know.)
 
 Analyze the map given the guidelines below. For this analysis, focus on the synoptic-scale features by keeping your contours fairly smooth.
 - Draw isobars in solid black lines at 4 hPa intervals.
@@ -100,28 +100,19 @@ In a couple sentences, describe the key features of the weather pattern that wer
 
 Manual analysis is a valuable way to get a real "feel" for the data in a given weather situation, but it also can be time consuming. A wide variety of methods for automating the analysis of weather data have been developed over the years, with varying complexity. MetPy has some of these methods built in. We'll use one of those methods here to analyze the same data that you analyzed by hand above.
 
+Another example notebook, modified from a MetPy example, is at [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/METAR_data_interpolation_dist.ipynb](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab1/METAR_data_interpolation_dist.ipynb). This will plot the same surface map as before, but will also analyze the pressure and temperature and plot them on the map. Go through this notebook to get the map.
+
+Are there any noticeable/relevant/interesting differences between your hand analysis and this analysis? 
+
+You might not like how this map looks, so spend some time making a nicer-looking version of this analysis. The MetPy notebook that my example was based on (linked near the top) provides some ideas, but feel free to experiment with your own style.
+
+### Extra credit
+
+There is one clearly erroneous observation in the dataset, though it falls outside of the eastern US domain we've been plotting. Identify this observation (station, location, and why the observation is in error.)
 
 
 
 
-
-- While you're going, one good thing to check to make sure all is well is to check the units of a variable or two.  This can be done just by calling something like `hght_500.units`  (In a notebook, if you make a new cell with this call it'll just print that value to the screen.)
-
-- Now we'll move on to calculating and plotting the 850-hPa temperature advection. You won't need to re-run a lot of the earlier code, because you've already read in much of what you need. Instead, you'll just need to repeat where you get the height and winds at 500-hPa but this time for 850 hPa, and make sure to also read the temperature at 850 hPa in Kelvin.
-
-- You can use your earlier code as a template for calculating the 850-hPa temperature advection.
-
-- And now, plot the 850-hPa heights, winds, temperature, and temperature advection.  For plotting details, you might find this example helpful: [https://unidata.github.io/python-training/gallery/850hpa_temperature_advection/](https://unidata.github.io/python-training/gallery/850hpa_temperature_advection/).  (Note that not all details of that example will work because it uses a different dataset.)
-
-- OK, you should now have maps of 500-hPa vorticity advection and 850-hPa temperature advection. Include these maps with your assignment when you turn it in. Discuss what the maps show in terms of where QG forcing for ascent and descent exist at this time.  Are there areas where the two maps give conflicting information in relation to QG forcing?
-
-- Now we'll also use this same gridded analysis to calculate 850-hPa Q-vectors (and their divergence).  There are a couple tricky aspects to plotting Q-vectors with MetPy, so I've provided a sample notebook here, which should work once you've done all the steps up to this point: [https://github.com/russ-schumacher/ats641_spring2020/blob/master/lab2_qvectors_only.ipynb](https://github.com/russ-schumacher/ats641_spring2020/blob/master/lab2_qvectors_only.ipynb).  You'll probably just want to copy these cells into your own notebook that you've been using.  Plot the 850-hPa heights, Q-vectors, and Q-vector divergence.  Where does this diagnostic indicate QG forcing for ascent?  How does it compare with what you found earlier for the "traditional" QG omega equation?
-
-- Are there any locations where you see a direct connection between the Q-vectors you calculated in question 1 of the lab?  If so, discuss.
-
-- Locate a radar image at the approximate time that we've been analyzing. If you want to make your own, the Iowa State RadMap API: [https://mesonet.agron.iastate.edu/GIS/radmap_api.phtml](https://mesonet.agron.iastate.edu/GIS/radmap_api.phtml) is a great resource, or else feel free to find one that already exists, like in the NCAR MMM image archive [https://www2.mmm.ucar.edu/imagearchive/](https://www2.mmm.ucar.edu/imagearchive/).  Do the regions of precipitation shown on the radar image generally correspond to the regions of forcing for ascent that you've identified?  Briefly discuss any notable consistencies or inconsistencies.
-
-- Finally, think back to the diagnostics we used to represent the "traditional" QG omega equation, and in particular the 500-hPa vorticity advection.  In using this diagnostic, there's one potentially important simplification that has been made with respect to the equation. State what this simplification is and whether you think it's reasonable in this case.
 
 
 
