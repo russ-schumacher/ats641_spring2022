@@ -1,6 +1,6 @@
 # Lab assignment 1
 
-### Due Wednedsay, February 9
+### Due Wednesday, February 9
 
 For lab assignment 1, we'll be using [MetPy](https://unidata.github.io/MetPy/latest/index.html), developed by Unidata, to produce maps and other graphics. The first step, if you haven't done this before, will be to install python, and then ultimately install MetPy.
 
