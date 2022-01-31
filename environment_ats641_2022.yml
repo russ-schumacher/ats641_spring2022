@@ -1,7 +1,7 @@
-name: ats641
- channels:
+name: ats641_2022
+channels:
    - conda-forge
- dependencies:
+dependencies:
    - python=3.8
    - numpy
    - matplotlib
@@ -17,7 +17,6 @@ name: ats641
    - boto3
    - botocore
    - jupyterlab
-   - sharppy
    - netcdf4
    - cfgrib
    - plotly
