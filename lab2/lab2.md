@@ -8,19 +8,21 @@ For lab assignment 2, we'll build on some of the python/MetPy setup that you did
 
 - Because we will use the temperature field later, add `Temperature_isobaric` to the list of variables that are pulled in when creating the `data_subset`
 
-- The rest of this code should then produce a map of 500-hPa vorticity advection. One thing you may want to experiment with is the level of smoothing, to optimize the "look" of your map.
+- The rest of this code should then produce a map of 500-hPa vorticity advection. One thing you may want to experiment with is the level of smoothing, to optimize the "look" of your map. MetPy has a [large number of different smoothing options](https://unidata.github.io/MetPy/latest/examples/calculations/Smoothing.html) that you could check out.
 
 - While you're going, one good thing to check to make sure all is well is to check the units of a variable or two.  This can be done just by typing the name of a variable (like `hght_500`) into a new cell and running it. What are the units of your calculated vorticity advection, and do they match with what the units should be for this field? 
 
-- Now we'll move on to calculating and plotting the 850-hPa temperature advection. You won't need to re-run a lot of the earlier code, because you've already read in much of what you need. Instead, you'll just need to repeat where you get the height and winds at 500-hPa but this time for 850 hPa, and make sure to also read the temperature at 850 hPa in Kelvin.
+- Now we'll move on to calculating and plotting the 850-hPa temperature advection. You won't need to re-run a lot of the earlier code, because you've already read in much of what you need. Instead, you'll just need to repeat where you define the height and winds at 500-hPa but this time for 850 hPa, and make sure to also read the temperature at 850 hPa.
 
 - You can use your earlier code as a template for calculating the 850-hPa temperature advection.
 
 - And now, plot the 850-hPa heights, winds, temperature, and temperature advection.  For plotting details, you might find this example helpful: [https://unidata.github.io/python-training/gallery/850hpa_temperature_advection/](https://unidata.github.io/python-training/gallery/850hpa_temperature_advection/).  (Note that not all details of that example will work because it uses a different dataset.)
 
+- One note is that the syntax in metpy for converting units has changed in recent versions: you can generally now use ".metpy.convert_units" whereas some older examples use ".to" which may no longer work.
+
 - OK, you should now have maps of 500-hPa vorticity advection and 850-hPa temperature advection. Include these maps with your assignment when you turn it in. Discuss what the maps show in terms of where QG forcing for ascent and descent exist at this time.  Are there areas where the two maps give conflicting information in relation to QG forcing?
 
-- Now we'll also use this same gridded analysis to calculate 850-hPa Q-vectors (and their divergence).  There are a couple tricky aspects to plotting Q-vectors with MetPy, so I've provided a sample notebook here, which should work once you've done all the steps up to this point: [https://github.com/russ-schumacher/ats641_spring2020/blob/master/lab2_qvectors_only.ipynb](https://github.com/russ-schumacher/ats641_spring2020/blob/master/lab2_qvectors_only.ipynb).  You'll probably just want to copy these cells into your own notebook that you've been using.  Plot the 850-hPa heights, Q-vectors, and Q-vector divergence.  Where does this diagnostic indicate QG forcing for ascent?  How does it compare with what you found earlier for the "traditional" QG omega equation?
+- Now we'll also use this same gridded analysis to calculate 700-hPa Q-vectors (and their divergence). Define 700-hPa variables as you have before. After that, there are a couple tricky aspects to plotting Q-vectors with MetPy, so I've provided a sample notebook here, which should work once you've done all the steps up to this point: [https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab2_qvectors_only.ipynb](https://github.com/russ-schumacher/ats641_spring2022/blob/master/lab2_qvectors_only.ipynb).  You'll probably just want to copy these cells into your own notebook that you've been using.  Plot the 700-hPa heights, Q-vectors, and Q-vector divergence.  Where does this diagnostic indicate QG forcing for ascent?  How does it compare with what you found earlier for the "traditional" QG omega equation?
 
 - Are there any locations where you see a direct connection between the Q-vectors you calculated in question 1 of the lab?  If so, discuss.
 
