@@ -20,5 +20,7 @@ dependencies:
    - netcdf4
    - cfgrib
    - plotly
+   - cdsapi
+   - fsspec
    - pip:
       - python-awips
